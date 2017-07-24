@@ -1,0 +1,37 @@
+<view class="city">
+  <view class="title">
+    <text>城市</text>
+    <text class="english">CITY</text>
+  </view>
+  <view class="content">
+    <view class="nm">三亚</view>
+    <view class="nm">丽江</view>
+    <view class="nm">海口</view>
+    <view class="nm">厦门</view>
+    <view class="nm">大理</view>
+    <view class="nm">香格里拉</view>
+    <view class="nm">巴厘岛</view>
+    <view class="nm">济州岛</view>
+  </view>
+</view>
+<view class="carrer">
+  <view class="title">
+    <text>职业</text>
+    <text class="english">CARRER</text>
+  </view>
+  <view class="content">
+     <view class="nm">摄影师</view>
+     <view class="nm">造型师</view>
+  </view>
+</view>
+<view class="style">
+  <view class="title">
+    <text>风格</text>
+    <text class="english">STYLE</text>
+  </view>
+  <view class="content">
+    <view class="nm">简约时尚</view>
+    <view class="nm">森系小清新</view>
+    <view class="nm">唯美大气</view>
+  </view>
+</view>

@@ -1,0 +1,60 @@
+.city{
+   width: 96%;
+   height: 400rpx;
+   margin: 0 auto;
+}
+.carrer{
+  width: 96%;
+  height: 200rpx;
+  margin: 0 auto;
+}
+.style{
+  width: 96%;
+  margin: 0 auto;
+}
+text{
+  font-size: 34rpx;
+  color:#B0B0B0;
+  font-weight: bold;
+  width: 100%;
+}
+.title{
+  position: relative;
+  padding-bottom: 10rpx;
+  margin-top: 20rpx;
+}
+.title::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #999999;
+  transform: scaleY(.5);
+}
+.english{
+  font-size: 32rpx;
+  color: 	#DCDCDC;
+}
+.english::before{
+  content: '|';
+  width: 2px;
+}
+.content{
+  width: 96%;
+  margin: 0 auto;
+  color:#8B8386;
+}
+.nm{
+display: block;
+float: left;
+padding: 6rpx 30rpx 6rpx 30rpx;
+text-decoration: none;
+font-size: 40rpx;
+border:1px solid #DEDEDE;
+border-radius: 30rpx;
+margin-top: 30rpx;
+margin-left: 50rpx;
+
+}

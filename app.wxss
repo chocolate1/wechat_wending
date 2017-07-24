@@ -1,0 +1,25 @@
+.container {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow-y:scroll;
+}
+tabBar{
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+}
+page{
+  background-color: #fff;
+
+}
+.flex{
+  display: flex;
+}
+.flex_auto{
+  flex: 1;
+}

@@ -1,0 +1,31 @@
+<view class="container">
+  <image class="scroll-image" src="{{pic}}"></image>
+  <view class="content">
+  <view  class="title" >{{title}}</view>
+  <view class="scroll-view-item-AT">
+    <view class="area">{{area}}</view>
+    <view class="day">{{day}}</view>
+  </view>
+  <view class="fee">{{fee}}</view>
+  <view class="{{showView?'hide':'more'}}">
+    <view class="canvas">
+      <view class="list"><view class="pink">5组</view>拍摄</view>
+      <view class="list"><view class="pink">250张</view>原片全送</view>
+      <view class="list"><view class="pink">80张</view>精修</view>
+      <view class="list">提供化妆</view>
+      <view class="list"><view class="pink">8小时</view>服务时长</view>
+    </view>
+  </view>
+  <view class="scroll-view-item-cf">
+    <view class="camerist_avatar"><image src="{{avatar}}"></image></view>
+    <view class="camerist">
+    <view class="camerist_name">{{name}}</view>
+    <view class="experience">{{experience}}</view>
+    </view>
+    <view class="btn">
+      <view bindtap="onChangeShowState">{{showView?'查看详情':'收起详情'}}</view>
+    </view>
+  </view>
+  <view class="reserve" bindtap="dingdan"><view class="text">预约</view>{{dingjin}}</view>
+  </view>
+</view>

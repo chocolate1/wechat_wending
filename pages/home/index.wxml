@@ -1,0 +1,34 @@
+<view class="container">
+<swiper  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="section section_gap">
+  <view class="section__title">三亚热拍</view>
+  <scroll-view class="scroll-view_H" scroll-x="true">
+    <view class="scroll-view-item_H" wx:for="{{hotList}}" wx:key="{{item}}" data-pic="{{item.pic}}"
+    data-title="{{item.title}}" data-area="{{item.area}}" data-day="{{item.day}}" data-avatar="{{item.avatar}}"
+    data-name="{{item.name}}" data-fee="{{item.fee}}"  data-experience="{{item.experience}}" bindtap="yuyue">
+      <image src="{{item.pic}}"class="scroll-image"/>
+      <view class="content">
+      <view  class="title" >{{item.title}}</view>
+      <view class="scroll-view-item-AT">
+        <view class="area">{{item.area}}</view>
+        <view class="day">{{item.day}}</view>
+      </view>
+      <view class="scroll-view-item-cf">
+        <view class="camerist_avatar"><image src="{{item.avatar}}"></image></view>
+        <view class="camerist_name">{{item.name}}</view>
+        <view class="fee">{{item.fee}}</view>
+      </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+<view class="more" bindtap="more">更多<image src="../../image/more.png"></image></view>
+<view class="near"><text>找附近专业人士拍摄</text><image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3297556650,65578514&fm=23&gp=0.jpg"></image></view>
+</view>

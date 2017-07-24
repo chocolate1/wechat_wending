@@ -1,0 +1,60 @@
+.wrap{
+  width: 100%;
+  height: 100%;
+
+}
+.scroll-image{
+  width: 100%;
+}
+.text{
+  width: 100%;
+  font-size: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: left;
+  font-family: '宋体';
+  color: #000;
+}
+.have{
+  padding-left: 50rpx;
+  text-align: left;
+  width: 100%;
+  font-size: 50rpx;
+  color: #000;
+  font-family: '宋体';
+}
+.list text{
+  padding-right: 20rpx;
+  padding-bottom: 10rpx;
+}
+.complite{
+  margin-top: 30rpx;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-top: 1rpx solid #E0E0E0;
+  border-bottom: 1rpx solid #E0E0E0;
+  font-size: 50rpx;
+  color: #000;
+  font-family: '宋体';
+}
+.reserver{
+  float: left;
+  margin-left: 30rpx;
+}
+.reserver text{
+  padding-left: 20rpx;
+
+}
+.zifu{
+  float: right;
+  margin-right: 50rpx;
+  color: red;
+}
+
+.none{
+  width: 100%;
+  overflow-y: hidden;
+  text-align: center;
+  padding-top: 200rpx;
+}

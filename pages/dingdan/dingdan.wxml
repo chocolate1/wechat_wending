@@ -1,0 +1,39 @@
+<view class="container">
+  <image src="{{pic}}"class="scroll-image"/>
+  <view class="content">
+  <view  class="title" >{{title}}</view>
+  <view class="scroll-view-item-AT">
+    <view class="area">{{area}}</view>
+    <view class="day">{{day}}</view>
+  </view>
+  <view class="fee">{{fee}}</view>
+  <view class="scroll-view-item-cf">
+    <view class="camerist_avatar"><image src="{{avatar}}"></image></view>
+    <view class="camerist">
+    <view class="camerist_name">{{name}}</view>
+    <view class="experience">{{experience}}</view>
+    </view>
+    <view class="right">
+    <view class="dingjin">定金：{{dingjin}}</view>
+    <view class="number">服装数量:
+      <view class="jj" data-set="{{number}}">
+      <view class="reduce" bindtap="reduce">-</view>
+        {{number}}
+      <view class="add" bindtap="add">+</view>
+    </view>
+  </view>
+  </view>
+</view>
+  <view class="server_time">
+    <view class="text">拍摄时间:</view>
+    <view class="date">
+      <picker mode="date" wx:key="{{date}}" value="{{datevalue}}" start="1978-01-01" end="2017-1-23" bindchange="bindDateChange">
+        <view class="picker">
+           {{datevalue}}
+        </view>
+      </picker>
+    </view>
+  </view>
+   <view class="reserve" bindtap="pay" id="{{item.id}}">下单</view>
+  </view>
+ </view>

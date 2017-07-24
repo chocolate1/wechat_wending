@@ -1,0 +1,34 @@
+<view class="container">
+    <view class="top">
+      <view  bindtap="bindViewTap" class="userinfo">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </view>
+    </view>
+    <view class="menu">
+      <view class="dingdan" bindtap="myorder">
+        <image src="../../image/dingdan.png"/>
+        <view >订单</view>
+      </view>
+      <view class="message">
+        <image src="../../image/xiaoxi.png"/>
+        <view>消息</view>
+      </view>
+      <view class="guanzhu">
+        <image src="../../image/guanzhu.png"/>
+        <view>关注</view>
+      </view>
+    </view>
+    <view class="content">
+      <view class="lists">
+        <view class="list" bindtap="personal">修改个人资料 <view class="next"></view></view>
+        <view class="list">我的需求<view class="next"></view></view>
+        <view class="list">发布需求<view class="next"></view></view>
+        <view class="list">我的客服<view class="next"></view></view>
+        <view class="list">关于我们<view class="next"></view></view>
+      </view>
+
+    </view>
+
+
+</view>

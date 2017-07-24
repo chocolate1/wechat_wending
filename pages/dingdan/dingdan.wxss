@@ -1,0 +1,167 @@
+
+.container{
+ width: 95%;
+ margin: 50rpx auto;
+ overflow-x: hidden;
+ border:1px solid #F0F0F0;
+ padding-bottom: 20rpx;
+}
+.content{
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.scroll-image{
+  width: 100%;
+}
+.title{
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 50rpx;
+  color: #000;
+
+}
+.scroll-view-item-AT{
+  width: 100%;
+  font-size: 36rpx;
+  color: #c9c;
+}
+.area{
+  display: inline-block;
+}
+.day{
+  margin-left: 10rpx;
+  display: inline-block;
+}
+.fee{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.scroll-view-item-cf{
+  width: 100%;
+  height: 180rpx;
+  position:relative;
+}
+.scroll-view-item-cf::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10rpx;
+  right: 10rpx;
+  height: 1rpx;
+  background-color: #E0E0E0;
+
+}
+.camerist_avatar{
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+}
+.camerist_avatar image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.camerist{
+  margin-top: 20rpx;
+  float: left;
+  width: 200rpx;
+  height: 180rpx;
+  line-height: 180rpx;
+  vertical-align: middle;
+  margin-left: 20rpx;
+}
+.camerist_name{
+  font-size: 40rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: left;
+  color: #7B7B7B;
+}
+.experience{
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  font-size: 30rpx;
+  float: left;
+  height: 40rpx;
+  line-height: 40rpx;
+  border: 1px solid  #E0E0E0;
+  color: #7B7B7B;
+}
+.right{
+  position: absolute;
+  right: 0;
+  top: 20rpx;
+  width: 400rpx;
+  height: 180rpx;
+}
+.dingjin{
+  color: #7B7B7B;
+  width: 400rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.number{
+  color: #7B7B7B;
+  width: 400rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.jj{
+  float: right;
+  width: 200rpx;
+  height: 60rpx;
+}
+.reduce{
+  margin-top: 20rpx;
+  width: 40rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  float: left;
+  border: 1px solid #E0E0E0;
+}
+.add{
+  margin-top: 20rpx;
+  width: 40rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  float: right;
+  border: 1px solid #E0E0E0;
+}
+.server_time{
+  clear: both;
+  width: 100%;
+  height: 100rpx;
+  margin-top: 40rpx;
+}
+.server_time .text{
+  float: left;
+  line-height: 100rpx;
+  width: 200rpx;
+  height: 100rpx;
+}
+.server_time .date{
+  float: left;
+  border: 1px solid #E0E0E0;
+  line-height: 100rpx;
+  width: 400rpx;
+  height:100rpx;
+  margin: 0 auto;
+}
+.reserve{
+ float: right;
+ margin-top: 50rpx;
+ margin-right: 20rpx;
+ font-size: 40rpx;
+ width: 250rpx;
+ height: 80rpx;
+ line-height: 80rpx;
+ border-radius: 10rpx;
+ background-color:#FF9797;
+ color: white;
+}

@@ -1,0 +1,42 @@
+<view class="section">
+  <view class="search-icon">
+    <image src="../../image/search.png" />
+  </view>
+    <input class="input" placeholder-style="font-size:15px"
+    placeholder="请在此输入你想拍的风格/城市/景点" auto-focus/>
+</view>
+<view class="main">
+
+  <view class="title">
+    <view class="left"></view>
+    <view class="text">最近两个小时有人在搜</view>
+  <view class="right"></view>
+  </view>
+  <view class="content">
+    <view class="first">
+    <view class="list">
+      三亚
+    </view>
+    <view class="list">
+      海景
+    </view>
+    <view class="list">
+      婚礼
+    </view>
+    </view>
+    <view class="second">
+      <view class="list">
+        田
+      </view>
+      <view class="list">
+        华
+      </view>
+  
+      <view class="list">
+        坤
+      </view>
+    </view>
+
+
+  </view>
+</view>

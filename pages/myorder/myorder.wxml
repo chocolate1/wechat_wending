@@ -1,0 +1,18 @@
+
+  <view class="wrap" style="display:{{display1}}">
+    <view class="text">订单详情:</view>
+    <view class="have" >
+      <view class="list"><text>主题:</text> {{title}}</view>
+      <view class="list"><text>地点:</text> {{area}}</view>
+      <view class="list"><text>时间:</text>{{datevalue}}</view>
+      <view class="list"><text>摄影师:</text> {{name}}</view>
+      <view class="list"><text>费用:</text> {{fee}}</view>
+    </view>
+    <view class="complite">
+    <view class="reserve"><text>定金:</text>{{dingjin}}<view class="zifu">已支付</view></view>
+
+    </view>
+  </view>
+  <view class="none" style="display:{{display2}}">
+     上帝呀，订单空空的哦(❁´ω`❁)
+  </view>
